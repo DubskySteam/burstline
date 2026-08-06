@@ -43,6 +43,8 @@ endif()
 add_library(
     burstline_core
     src/command_line.cpp
+    src/execution.cpp
+    src/transport.cpp
     src/workload.cpp
 )
 add_library(burstline::core ALIAS burstline_core)
