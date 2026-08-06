@@ -1,0 +1,12 @@
+# CMake build trees
+/build/
+/out/
+/cmake-build-*/
+
+# IDE and editor state
+/.vs/
+/.vscode/
+
+# Compiler and test output
+compile_commands.json
+Testing/

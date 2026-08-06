@@ -1,0 +1,17 @@
+PROJECT_NAME           = "Burstline"
+PROJECT_NUMBER         = "@PROJECT_VERSION@"
+OUTPUT_DIRECTORY       = "@CMAKE_CURRENT_BINARY_DIR@/docs"
+
+INPUT                  = "@PROJECT_SOURCE_DIR@/include"
+FILE_PATTERNS          = *.hpp
+RECURSIVE              = YES
+EXTRACT_ALL            = NO
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+
+JAVADOC_AUTOBRIEF      = YES
+GENERATE_HTML          = YES
+HTML_OUTPUT            = html
+GENERATE_LATEX         = NO
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = NO
